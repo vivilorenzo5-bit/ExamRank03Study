@@ -13,3 +13,11 @@ def cryptic_sorter(strings: list[str]) -> list[str]:
                 res[j], res[j+1] = res[j+1], res[j]
 
     return res
+
+
+if __name__ == "__main__":
+    test1 = ["banana", "laranja", "abacate", "morango", "a"]
+    print(cryptic_sorter(test1))
+
+    test2 = ["Cat", "cat", "BAT", "dog"]
+    print(cryptic_sorter(test2))
