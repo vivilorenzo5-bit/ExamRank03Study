@@ -1,0 +1,2 @@
+def string_sculptor(text: str) -> str:
+	
