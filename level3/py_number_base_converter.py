@@ -15,7 +15,6 @@ def number_base_converter(number: str, from_base: int, to_base: int) -> str:
     while decimal_val > 0:
         res = digits[decimal_val % to_base] + res
         decimal_val //= to_base
-
     return res
 
 
